@@ -2,11 +2,39 @@ html,body{
     height: 100%;
     margin: 0%;
 }
+#calendario{
+    background-color: black;
+    height:25%;
+    width: 20%;
+    float: left;
+    position: relative;
+    z-index: 999;
+}
 header{
-    background-color: gray;
     height: 20%;
 }
-logo{
-    height: 20px;
+#head{
     background-color: red;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
+#login{
+    background-color: green;
+    float:left;
+    height: 25%;
+    margin-left: 45%;
+    width: 20%;
+    position: relative;
+    z-index: 999;
+
+}
+#logo{
+    background-color: yellow;
+    float: left;
+    height: 100%;
+    width: 15%;
+
+
+}
+
