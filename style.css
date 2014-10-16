@@ -2,6 +2,9 @@ html,body{
     height: 100%;
     margin: 0%;
 }
+body{
+    overflow: hidden;
+}
 #calendario{
     background-color: black;
     height:25%;
@@ -10,6 +13,21 @@ html,body{
     position: relative;
     z-index: 999;
 }
+#contenido{
+    background-color: orange;
+    float:left;
+    height: 50%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: .5em;
+    position: relative;
+}
+footer{
+    background-color: gray;
+    height: 15%;
+}
+
 header{
     height: 20%;
 }
@@ -37,4 +55,31 @@ header{
 
 
 }
+#redes{
+    background-color: blue;
+    float:left;
+    height: 30%;
+    margin-left: 50%;
+    margin-top: 3em;
+    position: relative;
+    width: 30%;
+    
+}
+#pestañas{
+    background-color: red;
+    float:left;
+    height: 15%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2em;
+    position: relative;
 
+}
+#wrap{
+    background-color: green;
+    height: 65%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
